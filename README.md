@@ -20,12 +20,8 @@ To write a program to predict the profit of a city using the linear regression m
 5.In a loop over the number of epochs:
 
   .Compute the predicted value Y_pred using the formula
+  . Calculate the gradients
   
-      ![Screenshot 2024-09-02 173327](https://github.com/user-attachments/assets/7f98d6bb-5148-4793-9c7d-564b91fe803c)
-  . Calculate the gradients:
-  
-      ![Screenshot 2024-09-02 173333](https://github.com/user-attachments/assets/9ed04f4e-07ee-4ee4-8447-318a9826f766)
-      
   .Update the parameters m and c using the gradients and learning rate.
   
   .Track and store the error in each epoch.
