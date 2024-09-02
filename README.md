@@ -8,18 +8,30 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+
 1.Import necessary libraries such as NumPy, Pandas, Matplotlib, and metrics from sklearn.
+
 2.Load the dataset into a Pandas DataFrame and preview it using head() and tail().
+
 3.Extract the independent variable X and dependent variable Y from the dataset.
+
 4.Initialize the slope m and intercept c to zero. Set the learning rate L and define the number of epochs.
+
 5.In a loop over the number of epochs:
+
   .Compute the predicted value Y_pred using the formula
+  
       ![Screenshot 2024-09-02 173327](https://github.com/user-attachments/assets/7f98d6bb-5148-4793-9c7d-564b91fe803c)
   . Calculate the gradients:
+  
       ![Screenshot 2024-09-02 173333](https://github.com/user-attachments/assets/9ed04f4e-07ee-4ee4-8447-318a9826f766)
+      
   .Update the parameters m and c using the gradients and learning rate.
+  
   .Track and store the error in each epoch.
+  
 6.Plot the error against the number of epochs to visualize the convergence.
+                                                                     
 7.Display the final values of m and c, and the error plot.
 ## Program:
 ```
