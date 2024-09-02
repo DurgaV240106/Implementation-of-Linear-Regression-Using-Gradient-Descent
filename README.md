@@ -45,7 +45,7 @@ dataset = pd.read_csv('student_scores.csv')
 print(dataset.head())
 print(dataset.tail())
 ```
-## OUTPUt:
+## Output:
 ![Screenshot 2024-09-02 174107](https://github.com/user-attachments/assets/3fe283e3-95b8-4879-a751-6d82e076d3d6)
 ```
 dataset.info()
